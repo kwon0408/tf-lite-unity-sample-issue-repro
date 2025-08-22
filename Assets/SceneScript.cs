@@ -11,7 +11,6 @@ public class SceneScript: MonoBehaviour
     public void OnClickTestButton()
     {
         var input = new float[] { 6f, 232f, 90f, 3210f, 17.2f, 78f, 0f, 1f, 0f };
-        var output = new float[] { float.NaN, float.NaN };
         string path = Path.Combine(Application.streamingAssetsPath, HorsepowerModelFile);
         Horsepower ??= new Horsepower(path);
 
